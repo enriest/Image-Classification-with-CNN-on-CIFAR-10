@@ -1,0 +1,6 @@
+[deploy]
+# Railway will run this command after installing dependencies
+startCommand = "python app.py"
+
+[build]
+# Optional: specify Python version via environment variable in Railway dashboard if needed

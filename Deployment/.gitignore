@@ -1,0 +1,43 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large/raw data (keep local)
+cifar10_data/
+data/
+datasets/
+
+# Model checkpoints - keep only essential ones
+# Uncomment the line below if models are too large
+# *.pth
+
+# Large checkpoint/log files
+checkpoints/
+logs/
+runs/
+tensorboard_logs/
+
+# Output files that can be regenerated
+*.png
+*.jpg
+*.jpeg
+plots/
+figures/
+
+# System files
+.DS_Store
+.env
+*.log
+
+# IDE files
+.vscode/
+.idea/
